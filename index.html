@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>W Games Fr</title>
+</head>
+<body>
+       <iframe class = "catninja" width="500px" height="500px" src="https://images-opensocial.googleusercontent.com/gadgets/ifr?url=https://s3.amazonaws.com/production-assetsbucket-8ljvyr1xczmb/1ee20621-61bc-4ec8-a8ec-5e839c2e6edc%2
+Fcat-ninja.xml" frameborder="0" allowfullscreen=""loading="lazy"></iframe></body>
+       <button id="fs">Fullscreen</button>
+        <script>
+            document.getElementById("fs").onclick = function(){
+                document.getElementsByClassName('catninja')[0].className = "fullscreened"
+                console.log('fs')
+            }
+            
+        </script>
+        <style>
+            .fullscreened{
+                width: 100%;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;  
+            }
+        </style>
+</html>
